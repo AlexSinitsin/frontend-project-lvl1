@@ -14,4 +14,6 @@ jobs:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Lint code base
         run: make lint
+        working-directory: ./frontend-project-lvl1
+
 
