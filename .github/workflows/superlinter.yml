@@ -16,6 +16,5 @@ jobs:
         
       - name: Lint code base
         run: make lint
-        working-directory: AlexSinitsin/frontend-project-lvl1
 
 
