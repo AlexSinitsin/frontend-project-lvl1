@@ -9,6 +9,7 @@ on:
 
 jobs:
   super-lint:
+    runs-on: ubuntu-latest
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Lint code base
