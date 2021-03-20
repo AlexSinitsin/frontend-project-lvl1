@@ -11,7 +11,9 @@ jobs:
   super-lint:
     runs-on: ubuntu-latest
     steps:
-      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
       - name: Lint code base
         run: make lint
         working-directory: AlexSinitsin/frontend-project-lvl1
