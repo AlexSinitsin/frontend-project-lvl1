@@ -1,4 +1,4 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AlexSinitsin/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AlexSinitsin/frontend-project-lvl1/actions)
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
-<ing src="https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg" alt="bage">
+<ing src="https://github.com/AlexSinitsin/frontend-project-lvl1/actions/workflows/superlinter.yml/badge.svg/badge.svg" alt="bage">
