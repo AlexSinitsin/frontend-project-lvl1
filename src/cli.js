@@ -4,7 +4,7 @@ export const name = () => {
   console.log('Welcome to the Brain Games!');
   const nameForGamer = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${nameForGamer}`);
-  return name;
+  return nameForGamer;
 };
 
 const getRandomInt = (max) => Math.floor(Math.random() * Math.floor(max));
@@ -36,7 +36,7 @@ export const calc = (nameGamer) => {
   for (let i = 0; i < 3; i += 1) {
     const randomNumberFirs = getRandomInt(30);
     const randomNumberSecond = getRandomInt(30);
-    const randomFlag = getRandomInt(2);
+    const randomFlag = getRandomInt(3);
     let answer;
     switch (randomFlag) {
       case 0:
@@ -52,9 +52,7 @@ export const calc = (nameGamer) => {
         answer = randomNumberFirs * randomNumberSecond;
         break;
     }
-    console.log(answer);
     const yourAnswer = readlineSync.question('Your answer: ');
-    console.log(yourAnswer);
     if (String(answer) === yourAnswer) {
       console.log('Correct!');
       if (i === 2) {
