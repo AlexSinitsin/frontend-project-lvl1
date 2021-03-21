@@ -16,5 +16,3 @@ jobs:
         
       - name: Lint code base
         run: make lint
-
-
