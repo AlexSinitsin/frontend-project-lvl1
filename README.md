@@ -4,5 +4,7 @@
 ![example Super-Linter](https://github.com/AlexSinitsin/frontend-project-lvl1/actions/workflows/superlinter.yml/badge.svg)
 ### Work game brain-calc:
 [![asciicast](https://asciinema.org/a/NthU0RUzbqM7kPiPda1YWKsU1.png)](https://asciinema.org/a/NthU0RUzbqM7kPiPda1YWKsU1)
-### Work game brain-calc:
+### Work game brain-gcd:
 [![asciicast](https://asciinema.org/a/A8yDYBILqpi5cobTJgtQjF4d8.png)](https://asciinema.org/a/A8yDYBILqpi5cobTJgtQjF4d8)
+### Work game brain-progression:
+[![asciicast](https://asciinema.org/a/4ObylIaKegkpWBVJtFhXTUA3p.png)](https://asciinema.org/a/4ObylIaKegkpWBVJtFhXTUA3p)
