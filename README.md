@@ -8,3 +8,5 @@
 [![asciicast](https://asciinema.org/a/A8yDYBILqpi5cobTJgtQjF4d8.png)](https://asciinema.org/a/A8yDYBILqpi5cobTJgtQjF4d8)
 ### Work game brain-progression:
 [![asciicast](https://asciinema.org/a/4ObylIaKegkpWBVJtFhXTUA3p.png)](https://asciinema.org/a/4ObylIaKegkpWBVJtFhXTUA3p)
+### Work game brain-prime:
+[![asciicast](https://asciinema.org/a/cJac5c8FYBAKt04g6xxZLq3WG.png)](https://asciinema.org/a/cJac5c8FYBAKt04g6xxZLq3WG)
