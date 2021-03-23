@@ -26,6 +26,9 @@ export default () => {
   console.log(`Question: ${randomNumberFirs} ${randomNumberSecond}`);
   const firstNumberDivisors = Divisors(randomNumberFirs);
   const SecondNumberDivisors = Divisors(randomNumberSecond);
-  const largestDivisor = getlargestDivisor(firstNumberDivisors, SecondNumberDivisors);
+  const largestDivisor = getlargestDivisor(
+    firstNumberDivisors,
+    SecondNumberDivisors,
+  );
   return String(largestDivisor);
 };
