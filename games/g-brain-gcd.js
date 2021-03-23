@@ -13,7 +13,7 @@ const getlargestDivisor = (firstNumberDivisors, SecondNumberDivisors) => {
   let largestDivisor;
   let lengthArr = firstNumberDivisors.length;
   for (let i = 0; i < lengthArr; i += 1) {
-    if (firstNumberDivisors[i].includes(numberFirstArr)) {
+    if (SecondNumberDivisors.includes(firstNumberDivisors[i])) {
       largestDivisor = numberFirstArr;
     }
   }
