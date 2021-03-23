@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-import { name, calc } from '../src/cli.js';
+import { engine } from '../src/index.js';
+import calc from '../games/g-brain-calc.js';
 
-const nameBrainGamer = name();
-calc(nameBrainGamer);
+const string = 'What is the result of the expression?';
+engine(string, calc);
