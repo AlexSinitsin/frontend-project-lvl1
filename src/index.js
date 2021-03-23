@@ -11,7 +11,7 @@ export const engine = (question, func) => {
     if (String(answer) === yourAnswer) {
       console.log('Correct!');
       if (i === 2) {
-        console.log(`Congratulations, ${nameForGamer}`);
+        console.log(`Congratulations, ${nameForGamer}!`);
       }
     } else {
       console.log(
