@@ -21,9 +21,9 @@ const getlargestDivisor = (firstNumberDivisors, SecondNumberDivisors) => {
 };
 
 export default () => {
-  const rangeRandomNumber = 50;
-  const randomNumberFirs = getRandomInt(rangeRandomNumber + 1);
-  const randomNumberSecond = getRandomInt(rangeRandomNumber + 1);
+ 
+  const randomNumberFirs = getRandomInt(rangeRandomNumber) + 1;
+  const randomNumberSecond = getRandomInt(rangeRandomNumber) + 1;
   console.log(`Question: ${randomNumberFirs} ${randomNumberSecond}`);
   const firstNumberDivisors = Divisors(randomNumberFirs);
   const SecondNumberDivisors = Divisors(randomNumberSecond);
